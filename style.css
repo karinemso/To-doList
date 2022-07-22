@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#titulo {
+	text-align: center;
+	font-size: 3rem;
+	font-family: sans-serif;
+	margin-top: 1rem;
+}
+
+#inputbutton  {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+#tarefa {
+	width: 12rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	padding: 10px;
+}
+
+
+#tarefaAdicionar {
+	height: 2rem;
+	width: 8rem;
+	background-color: green;
+	color: white;
+	font: bold;
+	border-radius: 0.5rem;
+	border: none;
+}
+
+#listaTarefa {
+	text-align: left;
+	margin-top: 1rem;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	list-style: none;
+
+}
+
+#divLista {
+	width: 20rem;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tarefabotao {
+	display: flex;
+}
+
+.taskconteiner {
+	list-style: none;
+	
+}
+
+li {
+	list-style: none;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: wrap;
+}
+
+li h2{
+	font-size: 24px;
+}
+
+.check {
+	width: 15px;
+	height: 15px;
+}
+
+.tools {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.remove {
+	color: white;
+	border: none;
+	background-color: red;
+	height: 1rem;
+	width: 4rem;
+	border-radius: 10px;
+}
